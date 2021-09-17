@@ -1,0 +1,228 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1 {
+    padding: 20% 0;
+}
+
+h2 {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h2,
+h3 {
+    font-weight: bold;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+footer {
+    background-color: #fff;
+    font-weight: bold;
+    padding: 80px 0;
+}
+
+#pricing {
+    padding: 100px;
+}
+
+#phone-mashup {
+    transform: rotate(25deg);
+    padding: 10rem 8rem;
+}
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+#testimonials {
+    background-color: #ef8172;
+}
+
+.white-section {
+    color: black;
+}
+
+.colored-section {
+    color: #fff;
+    background-color: #ff4c68;
+}
+
+#menu .nav-item .nav-link {
+    color: #ff4c68;
+}
+
+#home_title {
+    width: 100vw;
+}
+
+.home-title {
+    line-height: 1.5;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    padding-bottom: 5%;
+}
+
+.home-column {
+    text-align: left;
+}
+
+.download-div {
+    padding: 15px 0;
+}
+
+#title .download-btn {
+    margin: 5% 3% 5% 0;
+}
+
+.row-title {
+    height: 80vh;
+    width: 100vw;
+}
+
+.price-column {
+    padding: 3% 2%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-left: auto;
+    transition: 300ms;
+}
+
+.row {
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+.card-body {
+    display: grid;
+}
+
+.feature-item {
+    margin-top: 50px;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.fa-2x {
+    margin: 75px 5px 10px;
+}
+
+#cta h3 {
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+.nav-item {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+.high-pt {
+    padding-top: 7%;
+}
+
+.home-p {
+    padding-left: 15%;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.card-body>button {
+    height: 48px;
+    margin-top: auto;
+}
+
+.download-btn {
+    margin: 5% auto 5%;
+}
+
+.testimonial-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    vertical-align: middle;
+    padding: 7% 15%;
+}
+
+.logo-press {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+@media (min-width: 992px) {
+    #features_container {
+        display: flex;
+    }
+}
+
+@media (max-width: 992px) {
+    #title {
+        height: 75%;
+    }
+    .home-title {
+        padding: 5% 0;
+        text-align: center;
+    }
+    .row {
+        padding-left: 3%;
+        padding-right: 3%;
+        margin: auto;
+    }
+    .home-column {
+        text-align: center;
+    }
+    .download-btn {
+        margin: 5% 1% 5% 0;
+        width: 100%;
+    }
+    #title .download-btn {
+        width: auto;
+    }
+    .cta-buttons {
+        display: block;
+    }
+    .phone-mashup-class {
+        display: none;
+    }
+    #home_title {
+        padding: 0 2%;
+    }
+    #pricing {
+        padding: 100px 15px;
+    }
+    #features {
+        padding: 48px 0;
+    }
+}
